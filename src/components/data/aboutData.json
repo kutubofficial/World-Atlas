@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "countryName": "Japan",
+        "capital": "Tokyo",
+        "population": 125800000,
+        "description": "Japan is an island country in East Asia known for its advanced technology, rich culture, and unique traditions like cherry blossoms and sushi."
+    },
+    {
+        "id": 2,
+        "countryName": "Canada",
+        "capital": "Ottawa",
+        "population": 38900000,
+        "description": "Canada is the second-largest country in the world by land area and is known for its natural beauty, including the Rocky Mountains and Niagara Falls."
+    },
+    {
+        "id": 3,
+        "countryName": "Brazil",
+        "capital": "Brasília",
+        "population": 216400000,
+        "description": "Brazil is the largest country in South America, home to the Amazon Rainforest and famous for its Carnival festival and football culture."
+    },
+    {
+        "id": 4,
+        "countryName": "India",
+        "capital": "New Delhi",
+        "population": 1428000000,
+        "description": "India is the world's most populous country, known for its diverse culture, rich history, and landmarks like the Taj Mahal."
+    },
+    {
+        "id": 5,
+        "countryName": "Australia",
+        "capital": "Canberra",
+        "population": 26100000,
+        "description": "Australia is famous for its unique wildlife, including kangaroos and koalas, as well as landmarks like the Great Barrier Reef and Sydney Opera House."
+    },
+    {
+        "id": 6,
+        "countryName": "France",
+        "capital": "Paris",
+        "population": 67500000,
+        "description": "France is known for its art, fashion, and cuisine, with famous landmarks like the Eiffel Tower and the Louvre Museum."
+    },
+    {
+        "id": 7,
+        "countryName": "Germany",
+        "capital": "Berlin",
+        "population": 83100000,
+        "description": "Germany is Europe's largest economy, known for its engineering, automotive industry, and historical sites like the Berlin Wall."
+    },
+    {
+        "id": 8,
+        "countryName": "United Kingdom",
+        "capital": "London",
+        "population": 67220000,
+        "description": "The UK is known for its monarchy, historic castles, and cultural influence, with landmarks like Big Ben and Buckingham Palace."
+    },
+    {
+        "id": 9,
+        "countryName": "China",
+        "capital": "Beijing",
+        "population": 1412000000,
+        "description": "China is the world's second-most populous country, known for its Great Wall, ancient history, and rapid technological advancements."
+    }
+]
