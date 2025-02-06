@@ -1,6 +1,14 @@
 import React from "react";
 
 const Contacts = () => {
+  const handleFormSubmit = (userData) => {
+    console.log(userData.entries());
+    // console.log(userData.entries.length());
+
+    const userInputData = Object.fromEntries(userData.entries());
+    console.log(userInputData);
+  };
+
   return (
     <div className="max-w-2xl mx-auto ">
       <h1 className="text-3xl font-semibold text-center mt-6 text-green-600 ">
@@ -13,7 +21,7 @@ const Contacts = () => {
       </p>
 
       <div className="bg-gray-800 p-5">
-        <form className="grid gap-6 ">
+        <form action={handleFormSubmit} className="grid gap-6 ">
           <div className="mx-auto">
             <label
               htmlFor="name"
@@ -24,6 +32,7 @@ const Contacts = () => {
             <input
               type="text"
               id="name"
+              name="username"
               placeholder="Enter your name"
               className="w-80 p-2 rounded-lg bg-gray-900 border border-gray-600 text-white focus:ring-2 focus:ring-green-400"
             />
@@ -39,6 +48,7 @@ const Contacts = () => {
             <input
               type="email"
               id="email"
+              name="email"
               placeholder="Enter your email"
               className="w-80 p-2 rounded-lg bg-gray-900 border border-gray-600 text-white focus:ring-2 focus:ring-green-400"
             />
@@ -54,6 +64,8 @@ const Contacts = () => {
             <textarea
               id="message"
               placeholder="Enter your message"
+              name="message"
+              autoComplete="false"
               rows="4"
               className="w-80 p-2 rounded-lg bg-gray-900 border border-gray-600 text-white focus:ring-2 focus:ring-green-400"
             ></textarea>
@@ -61,9 +73,10 @@ const Contacts = () => {
 
           <button
             type="submit"
+            // onClick={handleFormSubmit}
             className="w-50 py-2 mx-auto bg-green-500 text-gray-900 font-semibold rounded-lg hover:bg-green-400 transition"
           >
-            Submit
+            Send
           </button>
         </form>
       </div>

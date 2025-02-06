@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaAtlassian } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -7,8 +8,11 @@ const Navbar = () => {
       <div className="flex m-auto text-center w-250  ">
         <div className="m-auto ">
           <Link to="/">
-            <h2 className=" mr-90 font-bold" title="World-Atlas">
-              WorldAtlas
+            <h2
+              className=" mr-90 font-bold flex items-center gap-2"
+              title="World-Atlas"
+            >
+              <FaAtlassian className="text-lg" /> WorldAtlas
             </h2>
           </Link>
         </div>
@@ -25,12 +29,12 @@ const Navbar = () => {
           </div>
           <div className="m-5 font-bold">
             <li>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/country">Country</Link>
             </li>
           </div>
           <div className="m-5 font-bold">
             <li>
-              <Link to="/country">Country</Link>
+              <Link to="/contacts">Contacts</Link>
             </li>
           </div>
         </ul>
