@@ -35,13 +35,26 @@ export const myrouter = createBrowserRouter(
     },
   ],
   {
+    basename: "/World-Atlas",
     future: {
       v7_relativeSplatPath: true,
     },
   }
 );
 function App() {
-  return <RouterProvider router={myrouter}></RouterProvider>;
+  return (
+    <HashRouter>
+      <Layout>  
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/country" element={<Country />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </Layout>
+    </HashRouter>
+  );
 }
 
 export default App;
