@@ -4,62 +4,125 @@
         "countryName": "Japan",
         "capital": "Tokyo",
         "population": 125800000,
-        "description": "Japan is an island country in East Asia known for its advanced technology, rich culture, and unique traditions like cherry blossoms and sushi."
+        "description": "Japan is home to the world's busiest pedestrian crossing, the Shibuya Crossing, where thousands cross at once."
     },
     {
         "id": 2,
-        "countryName": "Canada",
-        "capital": "Ottawa",
-        "population": 38900000,
-        "description": "Canada is the second-largest country in the world by land area and is known for its natural beauty, including the Rocky Mountains and Niagara Falls."
+        "countryName": "Brazil",
+        "capital": "Brasília",
+        "population": 216000000,
+        "description": "Brazil has the largest rainforest in the world, the Amazon, which produces 20% of the world's oxygen."
     },
     {
         "id": 3,
-        "countryName": "Brazil",
-        "capital": "Brasília",
-        "population": 216400000,
-        "description": "Brazil is the largest country in South America, home to the Amazon Rainforest and famous for its Carnival festival and football culture."
+        "countryName": "Canada",
+        "capital": "Ottawa",
+        "population": 39000000,
+        "description": "Canada has more lakes than the rest of the world combined, with over 3 million lakes."
     },
     {
         "id": 4,
-        "countryName": "India",
-        "capital": "New Delhi",
-        "population": 1428000000,
-        "description": "India is the world's most populous country, known for its diverse culture, rich history, and landmarks like the Taj Mahal."
+        "countryName": "Australia",
+        "capital": "Canberra",
+        "population": 26000000,
+        "description": "Australia is home to the world's longest fence, the Dingo Fence, stretching over 5,600 km."
     },
     {
         "id": 5,
-        "countryName": "Australia",
-        "capital": "Canberra",
-        "population": 26100000,
-        "description": "Australia is famous for its unique wildlife, including kangaroos and koalas, as well as landmarks like the Great Barrier Reef and Sydney Opera House."
+        "countryName": "India",
+        "capital": "New Delhi",
+        "population": 1417000000,
+        "description": "India is the world's largest democracy and has over 2,000 spoken languages."
     },
     {
         "id": 6,
-        "countryName": "France",
-        "capital": "Paris",
-        "population": 67500000,
-        "description": "France is known for its art, fashion, and cuisine, with famous landmarks like the Eiffel Tower and the Louvre Museum."
+        "countryName": "China",
+        "capital": "Beijing",
+        "population": 1410000000,
+        "description": "China's Great Wall is the longest structure ever built, stretching over 21,000 km."
     },
     {
         "id": 7,
-        "countryName": "Germany",
-        "capital": "Berlin",
-        "population": 83100000,
-        "description": "Germany is Europe's largest economy, known for its engineering, automotive industry, and historical sites like the Berlin Wall."
+        "countryName": "Russia",
+        "capital": "Moscow",
+        "population": 144000000,
+        "description": "Russia is the largest country by land area, covering 11 time zones."
     },
     {
         "id": 8,
-        "countryName": "United Kingdom",
-        "capital": "London",
-        "population": 67220000,
-        "description": "The UK is known for its monarchy, historic castles, and cultural influence, with landmarks like Big Ben and Buckingham Palace."
+        "countryName": "United States",
+        "capital": "Washington, D.C.",
+        "population": 332000000,
+        "description": "The U.S. has the world's largest economy and the most billionaires of any country."
     },
     {
-        "id": 9,
-        "countryName": "China",
-        "capital": "Beijing",
-        "population": 1412000000,
-        "description": "China is the world's second-most populous country, known for its Great Wall, ancient history, and rapid technological advancements."
+        "id": 10,
+        "countryName": "France",
+        "capital": "Paris",
+        "population": 67000000,
+        "description": "France is the most visited country in the world, with over 90 million tourists annually."
+    },
+    {
+        "id": 11,
+        "countryName": "Germany",
+        "capital": "Berlin",
+        "population": 83000000,
+        "description": "Germany is home to the world's first highway, the Autobahn, which has sections with no speed limit."
+    },
+    {
+        "id": 12,
+        "countryName": "Italy",
+        "capital": "Rome",
+        "population": 59000000,
+        "description": "Italy has the most UNESCO World Heritage sites, including the Colosseum and Venice."
+    },
+    {
+        "id": 13,
+        "countryName": "South Africa",
+        "capital": "Pretoria",
+        "population": 60000000,
+        "description": "South Africa has three capital cities: Pretoria (executive), Bloemfontein (judicial), and Cape Town (legislative)."
+    },
+    {
+        "id": 14,
+        "countryName": "Mexico",
+        "capital": "Mexico City",
+        "population": 130000000,
+        "description": "Mexico City is sinking about 50 cm per year due to groundwater extraction."
+    },
+    {
+        "id": 15,
+        "countryName": "Argentina",
+        "capital": "Buenos Aires",
+        "population": 46000000,
+        "description": "Argentina is home to the widest avenue in the world, Avenida 9 de Julio, with 12 lanes."
+    },
+    {
+        "id": 17,
+        "countryName": "Saudi Arabia",
+        "capital": "Riyadh",
+        "population": 35000000,
+        "description": "Saudi Arabia is the only country in the world without a single natural river."
+    },
+    {
+        "id": 18,
+        "countryName": "Indonesia",
+        "capital": "Jakarta",
+        "population": 276000000,
+        "description": "Indonesia is the world's largest island country, with over 17,000 islands."
+    },
+    {
+        "id": 19,
+        "countryName": "South Korea",
+        "capital": "Seoul",
+        "population": 52000000,
+        "description": "South Korea has the fastest internet speeds in the world."
+    },
+    {
+        "id": 20,
+        "countryName": "Spain",
+        "capital": "Madrid",
+        "population": 47000000,
+        "description": "Spain is home to the world's oldest restaurant, Restaurante Botín, founded in 1725."
     }
 ]

@@ -6,7 +6,7 @@ const Country = () => {
   // Fetch country data using an API call
   const [countries, setCountries] = useState([]);
   const [isLoading, startTransition] = useTransition(false);
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState("");
   useEffect(() => {
     startTransition(async () => {
       const { data } = await axios.get(
@@ -23,14 +23,25 @@ const Country = () => {
         Loading....
       </h1>
     );
-  <SearchData search={search} setSearch={setSearch} />; // here we set the search box
+  // console.log(search);
+
+  const filteredCountries = countries.filter((country) => {
+    if (search) {
+      return country.name.common.toLowerCase().includes(search.toLowerCase());
+    } else {
+      return true;
+    }
+  });
+  // console.log(filteredCountries); //here the filteredCountries
+
   return (
     <div className="max-w-5xl mx-auto">
       <h1 className="text-3xl text-green-600 font-bold text-center mt-5 ">
         Our Countries...
       </h1>
+      <SearchData search={search} setSearch={setSearch} />
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
-        {countries.map((elementData, index) => {
+        {filteredCountries.map((elementData, index) => {
           const { name, capital, region, population, flags } = elementData;
           return (
             <section

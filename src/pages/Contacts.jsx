@@ -6,7 +6,7 @@ const Contacts = () => {
     // console.log(userData.entries.length());
 
     const userInputData = Object.fromEntries(userData.entries());
-    console.log(userInputData);
+    console.log(userInputData); // final user input is successfully reserved.
   };
 
   return (
